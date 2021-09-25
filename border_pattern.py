@@ -1,10 +1,10 @@
 def borderPattern(size):
   size = 5
   inner_size = size - 2
-  print ('*' * size)
+  print ('* ' * size)
   for i in range(inner_size):
-    print ('*' + '  ' * inner_size + '*')
-  print ('*' * size)
+    print ('*' + '  ' * ((2*size-3)) + '*')
+  print ('* ' * size)
   
       
 print borderPattern(5)
@@ -12,9 +12,9 @@ print borderPattern(5)
 """
 output:
 
-*****
-*   *
-*   *
-*   *
-*****
+* * * * *
+*       *
+*       *
+*       *
+* * * * *
 """
